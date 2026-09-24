@@ -12,7 +12,7 @@
 Class.forName("com.mysql.cj.jdbc.Driver");
 String url="jdbc:mysql://localhost:3306/loyola";
 String id="root";
-String pass="jana";
+String pass="****";
 String user=request.getParameter("id");
 String password=request.getParameter("pass");
 ResultSet rst=null;
