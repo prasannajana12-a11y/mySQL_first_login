@@ -14,7 +14,7 @@
 
 String url = "jdbc:mysql://localhost:3306/loyola";
 String id = "root";
-String pass = "jana";
+String pass = "****";
 try {
 	Class.forName("com.mysql.cj.jdbc.Driver");
     Connection con = DriverManager.getConnection(url, id, pass);
